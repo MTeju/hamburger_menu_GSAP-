@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container nav{
+    height: 70px;
+    width: 100%;
+    background: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container nav h4{
+    font-size: 40px;
+}
+
+.container .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    font-size: 70px;
+}
+
+.container h3{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 30px;
+    color: crimson;
+}
+
+.container span{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+.container i{
+    font-size: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.container .hanburger-menu{
+    height: 98vh;
+    width: 20%;
+    background: rgba(0, 0, 0, 0.649);
+    position: absolute;
+    top: 0;
+    right: -20%;
+    backdrop-filter: blur(20px);
+    color: white;
+}
+
+.container .hanburger-menu .close{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 50px;
+}
+
+.container .hanburger-menu .close i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.container .hanburger-menu .links{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.container .links h2{
+    margin: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+footer{
+    background: black;
+    height: 65px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+footer i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
